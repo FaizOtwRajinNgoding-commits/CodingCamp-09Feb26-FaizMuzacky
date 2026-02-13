@@ -8,20 +8,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header id="header" class="flex">
+    <header id="header" class="flex border-2 border-t-0 border-r-0 border-l-0 border-black">
         <div class="logo mt-2 ml-2 mb-2 shader-xs">
         </div>
-            <nav id="navbar" class="flex">  
-                <a class="border rounded p-1" href="">Home</a>
-                <a class="border rounded p-1" href="">About Me</a>
-                <a class="border rounded p-1" href="">Form</a>
+            <nav id="navbar" class="flex text-white">  
+                <a id="home" class="border-2 bg-gray-700 border rounded-l-lg p-1 border-r-0 " href="">Home</a>
+                <a id="about-me" class="border-2 bg-gray-700 border p-1" href="">About Me</a>
+                <a id="form" class="border-2 bg-gray-700 border rounded-r-lg p-1 border-l-0" href="">Form</a>
             </nav>
     </header>
 
-    <main>
-        <div class="flex">
-            <h2 class="">Welcome aboard Captain</h2>
-        </div>
+    <main id="main">
+        <section id="upMain">
+            <p>Welcome aboard Captain ....</p>
+        </section>
+
+        <section id="middleMain">
+            <h1 id="headingMiddle">About me</h1>
+            <div id="profil">
+                <div id="foto1"></div>
+                <p> asdasd</p>
+            </div>
+        </section>
     </main>
 
 
